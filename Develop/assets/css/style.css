@@ -8,6 +8,30 @@ body {
     background-color: #d9dcd6;
 }
 
+nav{
+    list-style: none;
+    display: inline;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a:hover {
+    background-color: rgb(19, 61, 73);
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,22 +56,10 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
